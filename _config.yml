@@ -1,0 +1,5 @@
+title: PyBugHive
+description: A Comprehensive Database of Manually Validated, Reproducible Python Bugs
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-slate

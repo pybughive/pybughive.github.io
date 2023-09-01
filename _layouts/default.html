@@ -5,6 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 {% seo %}
@@ -39,8 +40,13 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        {{ content }}
+      <section id="main_content">
+        <div id="btn_box">
+          <a href="#"><button class="btn"><i class="fa fa-file"></i> PDF</button></a>
+          <a href="https://github.com/pybughive"><button class="btn"><i class="fa fa-github"></i> Github</button></a>
+          <a href="#"><button class="btn"><i class="fa fa-search "></i> Details</button></a>
+        </div>
+          {{ content }}
       </section>
     </div>
 

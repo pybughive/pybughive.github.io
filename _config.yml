@@ -1,4 +1,9 @@
 title: PyBugHive
+bugs: 105
+projects: 10
+pdf_link:
+details_link:
+github_link: https://github.com/pybughive
 description: A Comprehensive Database of Manually Validated, Reproducible Python Bugs
 show_downloads: false
 google_analytics:

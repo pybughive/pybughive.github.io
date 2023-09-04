@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
- <div id="btn_box">
-          <a href="{{ site.pdf_link }}"><button class="btn"><i class="fa fa-file"></i> PDF</button></a>
-          <a href="{{ site.github_link }}"><button class="btn"><i class="fa fa-github"></i> Github</button></a>
-          <a href="{{ site.home_link }}"><button class="btn"><i class="fa fa-home "></i> Home</button></a>
-</div>
 
 ### Projects
 

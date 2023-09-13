@@ -4,7 +4,7 @@ layout: default
 <div id="btn_box">
           <a href="{{ site.home_link }}"><button class="btn"><i class="fa fa-home "></i> Home</button></a>
           <a href="{{ site.pdf_link }}"><button class="btn"><i class="fa fa-file"></i> PDF</button></a>
-          <a href="{{ site.github_link }}"><button class="btn"><i class="fa fa-github"></i> Github</button></a>
+          <a href="{{ site.github_link }}"><button class="btn"><i class="fa fa-github"></i> GitHub</button></a>
           <a href="{{ site.download_link }}"><button class="btn"><i class="fa fa-download"></i> Download </button></a>
           <a href="{{ site.details_link }}"><button class="btn active"><i class="fa fa-search"></i> Details</button></a>
 </div>

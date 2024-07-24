@@ -47,6 +47,21 @@ number. It deletes all temporary files generated during
 the run. When used with the <em>--all</em> flag, it deletes everything
 the tool downloaded, including the repositories.</li>
 </ul>
+
+For example, if a user would like to validate **1493** from the project **black**, they should do the following sequence:
+<ol>
+<li>python pybughive.py checkout black-1493</li>
+<li>python pybughive.py install black-1493</li>
+<li>python pybughive.py test black-1493</li>
+<li>python pybughive.py fix black-1493</li>
+<li>python pybughive.py test black-1493</li>
+</ol>
+
+Here, step 1) checks out the appropriate commit from the selected repository, step 2) installs the project and step 3) runs the tests.
+Here, the tests related to the bug should fail.
+Step 4) applies the bugfix and step 5) runs the tests again, which should pass this time.
+
+
 Before <strong>PyBugHive</strong> can be used, it needs to be configured
 by setting the <em>INSTALL_DIRECTORY</em>, which specifies where
 to download the repositories, and the <em>MONGO_URL</em>, which
@@ -64,6 +79,7 @@ ways the user can provide these:
    successfully run any bug presented in our database. However,
    for better isolation, we recommend using the Docker environment.</li>
 </ol>
+
 
 ### Offline version
 A major concern for bug databases is to continuously ensure

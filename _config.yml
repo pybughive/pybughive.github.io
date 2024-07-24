@@ -3,8 +3,8 @@ description: A Comprehensive Database of Manually Validated, Reproducible Python
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
-bugs: 105
-projects: 10
+bugs: 149
+projects: 11
 github_link: https://github.com/pybughive
 pdf_link:
 download_link: download.html

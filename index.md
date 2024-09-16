@@ -23,5 +23,11 @@ The interface facilitates highly reproducible <strong>empirical research and too
 ### How to cite?
 
 ```bib
-SOON
+@article{antal2024pybughive,
+  title={PyBugHive: A Comprehensive Database of Manually Validated, Reproducible Python Bugs},
+  author={Antal, G{\'a}bor and V{\'a}ndor, Norbert and Koll{\'a}th, Istv{\'a}n and Mosolyg{\'o}, Bal{\'a}zs and Heged{\H{u}}s, P{\'e}ter and Ferenc, Rudolf},
+  journal={IEEE Access},
+  year={2024},
+  publisher={IEEE}
+}
 ```
